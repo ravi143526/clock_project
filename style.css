@@ -1,0 +1,199 @@
+*{
+    margin: 20px;
+}
+
+.grid-container{
+    display: flex;
+    background-color: #3D087B;
+}
+
+#grid-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.grid-clock-img{
+    width: 100%;
+    height: 100px;
+    background-image: url(assets/clock_logo.png);
+    background-repeat: no-repeat;
+}
+
+.grid-time-block{
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.dropdown_item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+}
+
+.dropdown_img1 , .dropdown_img2 , .dropdown_img3 , .dropdown_img4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 270px;
+    margin-left: -16px;
+}
+
+.dropdown-list{
+    width: 200px;
+}
+
+.dropdown-list select{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.empty-line{
+    border-left: 1px solid #ccc;
+    height: 30px;
+    margin-left: 42px;
+}
+
+#grid-txt1{
+    background: #5F0089;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+#grid-button button{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.grid-timer{
+    background-color: aliceblue;
+    height: 105px;
+    position: relative;
+    border-radius: 12px;
+}
+
+ .grid-timer-div1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-top: -8px;
+}
+
+.grid-timer-div1 div{
+    margin-left: -2px;
+    font-size: 20px;
+}
+
+.clock1{
+    float: left;
+    margin: auto;
+    color: grey;
+}
+
+.clock2{
+    background-image: url(assets/timeline.svg);
+    text-align: center;
+}
+
+#hours{
+    font-size: 30px;
+}
+
+#hours ~ p{
+    margin-top: 4px;
+}
+
+.clock3{
+    background-image: url(assets/timeline.svg);
+    text-align: center;
+}
+
+#mins{
+    font-size: 30px;
+}
+
+#mins ~ p{
+    margin-top: 4px;
+}
+
+.clock4{
+    background-image: url(assets/timeline.svg);
+    text-align: center;
+}
+
+#secs{
+    font-size: 30px;
+}
+
+#secs ~ p{
+    margin-top: 4px;
+}
+
+.amPm{
+    background-image: url(assets/AM_svg.svg);
+    background-repeat: no-repeat;
+    padding: 29px 0;
+}
+
+.grid-timer-div2 {
+    background-color: #ffffff;
+    width: 70%;
+    height: 15px;
+    top: 20px;
+    margin: auto;
+    margin-top: -28px;
+    border-radius: 0 0 8px 8px;
+    opacity: 0.7;
+}
+
+.grid-timer-div3{
+    background-color: #5F0089;
+    width: 65%;
+    height: 15px;
+    top: 20px;
+    margin: auto;
+    border-radius: 0 0 8px 8px;
+    opacity: 0.71;
+}
+
+#grid-text{
+    background-color: #ffffff;
+    color: #8E53F0;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px 4px;
+    border-radius: 8px;
+}
+
+#img{
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+#dynamic-block{
+    background-color: #5F0089;
+    font-size: 16px;
+    padding: 8px;
+    list-style-type: none;
+    color: #F25CFE;
+}
